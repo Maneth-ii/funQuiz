@@ -1,0 +1,99 @@
+:root {
+  background-color: #242424;
+}
+
+
+body {
+  font-family:monospace;
+  color: azure;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button {
+  color: azure;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.main-container{
+  padding: 3rem;
+  transition: all 1s;
+  transform: scale(1.4);
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  background-color: azure;
+  color: #1a1a1a;
+  animation: logo-spin;
+  animation-delay: unset;
+  animation-direction: alternate;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+
+}
+.finished{
+
+}
+/*.card{*/
+/*  transition: all 1s;*/
+/*  transform: scale(1.4);*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background-color: azure;*/
+/*  color: #1a1a1a;*/
+/*  animation: logo-spin;*/
+/*  animation-delay: unset;*/
+/*  animation-direction: alternate;*/
+/*  animation-duration: 7s;*/
+/*  animation-fill-mode: forwards;*/
+/*  animation-iteration-count: infinite;*/
+/*  animation-play-state: running;*/
+/*  animation-timing-function: ease-in;*/
+/*}*/
+
+@keyframes logo-spin {
+  10%{
+    border: 2px solid darkorange;
+  }
+  40%{
+    border-radius: 20px;
+    border: 2px solid #1a1a1a;
+  }
+
+}
+
+.selected{
+  background-color: #646cff;
+}
+
+.ans{
+  cursor: pointer;
+}
+.ans:hover{
+  background-color: #646cff;
+}
